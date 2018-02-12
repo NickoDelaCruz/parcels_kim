@@ -5,23 +5,22 @@
 
 ## Description
 
-Stuff here
+Add project description
 
 ## Setup/Installation Requirements
 
-stuff here
+setup instructions
 
 ## Specs
 
-stuff here
+ * Add more gems and add into Gemfile
+ * Run bundle
 
 
 
 ## Technologies Used
 
-* Ruby
-* Gems (pry, rspec, bundler, etc)
-* Sinatra
+* Technology list
 
 ### License
 
