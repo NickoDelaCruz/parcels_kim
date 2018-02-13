@@ -9,10 +9,9 @@ class Parcel
   def volume_calc(length,width,height)
     volume = length * width * height
   end
+  # volume x price = price to ship
 
   def shipping_cost(length, width, height)
-    cost = (length * width * height) * 3
+    cost = (length * width * height) * 1.25
   end
 end
-
-# volume x price = price to ship

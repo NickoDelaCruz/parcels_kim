@@ -13,6 +13,6 @@ describe('Parcel') do
 
   it("will calculate shipping costs") do
     cost = Parcel.new(3,3,3)
-    expect(cost.shipping_cost(3,3,3)).to(eq(81))
+    expect(cost.shipping_cost(3,3,3)).to(eq(33.75))
   end
 end
