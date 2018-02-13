@@ -6,8 +6,12 @@ class Parcel
   end
 
 # l x w x h = v
-  def volume1(length,width,height)
+  def volume_calc(length,width,height)
     volume = length * width * height
+  end
+
+  def shipping_cost(length, width, height)
+    cost = (length * width * height) * 3
   end
 end
 
